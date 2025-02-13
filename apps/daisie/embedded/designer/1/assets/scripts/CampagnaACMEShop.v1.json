@@ -1,0 +1,1714 @@
+{
+    "dataSchema": {
+        "CognomeFatturazione": {
+            "type": "text",
+            "nullable": true,
+            "constraints": {
+                "min": "",
+                "max": "100",
+                "regex": ""
+            }
+        },
+        "NomeFatturazione": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "50",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "InidirizzoFatturazione": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "100",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "LocalitaFatturazione": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "100",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "CapFatturazione": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "5",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "ProvinciaFatturazione": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "2",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "TelefonoFatturazione": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "15",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "CellulareFatturazione": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "15",
+                "min": "",
+                "regex": "/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/g"
+            }
+        },
+        "Regalo": {
+            "type": "boolean",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "CapBeneficiario": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "5",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "CellulareBeneficiario": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "15",
+                "min": "",
+                "regex": "/^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/g"
+            }
+        },
+        "CognomeBeneficiario": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "100",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "IndirizzoBeneficiario": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "100",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "LocalitaBeneficiario": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "100",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "NomeBeneficiario": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "50",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "ProvinciaBeneficiario": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "2",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "TelefonoBeneficiario": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "15",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "SKU1": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "10",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "SKU2": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "10",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "SKU3": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "10",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "SKU1_QTA": {
+            "type": "number",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "SKU1_PU": {
+            "type": "number",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "SKU2_PU": {
+            "type": "number",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "SKU2_QTA": {
+            "type": "number",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "SKU3_PU": {
+            "type": "number",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "SKU3_QTA": {
+            "type": "number",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "SKU1_SUB": {
+            "type": "number",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "SKU2_SUB": {
+            "type": "number",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "SKU3_SUB": {
+            "type": "number",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "TotaleOrdine": {
+            "type": "number",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "Interessato": {
+            "type": "boolean",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "ConosceGiaAzienda": {
+            "type": "boolean",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "UsaGiaProdotti": {
+            "type": "boolean",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "ProdottiNoti": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "ConfermaAccettaCondizioni": {
+            "type": "boolean",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "CodiceFiscaleFatturazione": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "20",
+                "min": "",
+                "regex": ""
+            }
+        }
+    },
+    "config": {
+        "isPreviewEnabled": true,
+        "start": {
+            "conditions": [],
+            "defaultStartingPoint": "",
+            "withConditions": false
+        }
+    },
+    "template": [
+        {
+            "id": "001",
+            "pageName": "Introduzione",
+            "elements": [
+                {
+                    "id": "001",
+                    "formType": 3,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "",
+                            "label": "Gentile Sig./Sig.ra {{CognomeFatturazione}}, la contattiamo da ACME Shop per proporle un affare che non potrà rifiutare!",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 0,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": ""
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "000",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "ConosceGiaAzienda",
+                            "label": "Ha già sentito parlare di ACME Shop?",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 5,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Conosce già azienda"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": [
+                                    {
+                                        "label": "SI",
+                                        "value": "true"
+                                    },
+                                    {
+                                        "label": "NO",
+                                        "value": "false"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "002",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [
+                        {
+                            "condition": [
+                                {
+                                    "label": "ConosceGiaAzienda",
+                                    "value": "ConosceGiaAzienda",
+                                    "type": 0
+                                },
+                                {
+                                    "label": "uguale a",
+                                    "value": "=",
+                                    "type": 2
+                                },
+                                {
+                                    "label": "SI",
+                                    "value": "true",
+                                    "type": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "queries": [
+                        {
+                            "key": "UsaGiaProdotti",
+                            "label": "Utilizza già qualche nostro prodotto?",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 5,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Usa già prodotti"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": [
+                                    {
+                                        "label": "SI",
+                                        "value": "true"
+                                    },
+                                    {
+                                        "label": "NO",
+                                        "value": "false"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "003",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [
+                        {
+                            "condition": [
+                                {
+                                    "label": "UsaGiaProdotti",
+                                    "value": "UsaGiaProdotti",
+                                    "type": 0
+                                },
+                                {
+                                    "label": "uguale a",
+                                    "value": "=",
+                                    "type": 2
+                                },
+                                {
+                                    "label": "SI",
+                                    "value": "true",
+                                    "type": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "queries": [
+                        {
+                            "key": "ProdottiNoti",
+                            "label": "Quale tra i seguenti?",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": true,
+                                "isTextBox": false,
+                                "responseType": 2,
+                                "apiConfig": {
+                                    "method": "",
+                                    "url": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Prodotti conosciuti"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": [
+                                    {
+                                        "label": "Igienizzante mani \"Ammucchiatina\"",
+                                        "value": "Ammucchiatina"
+                                    },
+                                    {
+                                        "label": "Dentifricio \"Senzadent Minus\"",
+                                        "value": "Senzadent Minus"
+                                    },
+                                    {
+                                        "label": "Assorbenti \"Rumenia Pocket\"",
+                                        "value": "Rumenia Pocket"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "000",
+            "pageName": "Proposta Commerciale",
+            "elements": [
+                {
+                    "id": "001",
+                    "formType": 3,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "",
+                            "label": "Cosa ne direbbe Sig./Sig.ra {{CognomeFatturazione}} se io le proponessi un prodotto gratis a sua scelta con l'acquisto minimo di altri 3 prodotti?",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 0,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": ""
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "000",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "Interessato",
+                            "label": "Le interessa?",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 5,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Interessato"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": [
+                                    {
+                                        "label": "SI",
+                                        "value": "true"
+                                    },
+                                    {
+                                        "label": "NO",
+                                        "value": "false"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "002",
+                    "formType": 4,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "SKU1",
+                            "label": "Prodotto 1",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 3,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "SKU1"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": [
+                                    {
+                                        "label": "Prodotto A",
+                                        "value": "A"
+                                    },
+                                    {
+                                        "label": "Prodotto B",
+                                        "value": "B"
+                                    },
+                                    {
+                                        "label": "Prodotto C",
+                                        "value": "C"
+                                    },
+                                    {
+                                        "label": "Prodotto D",
+                                        "value": "D"
+                                    },
+                                    {
+                                        "label": "Prodotto E",
+                                        "value": "E"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "SKU1_QTA",
+                            "label": "Quantità",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "SKU1_QTA"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        },
+                        {
+                            "key": "SKU1_PU",
+                            "label": "Prezzo Unitario",
+                            "fieldAutoFillConditions": [
+                                {
+                                    "condition": [
+                                        {
+                                            "label": "SKU1",
+                                            "value": "SKU1",
+                                            "type": 0
+                                        },
+                                        {
+                                            "label": "uguale a",
+                                            "value": "=",
+                                            "type": 2
+                                        },
+                                        {
+                                            "label": "Prodotto A",
+                                            "value": "A",
+                                            "type": 1
+                                        }
+                                    ],
+                                    "effect": "23.50",
+                                    "effectIsField": false
+                                },
+                                {
+                                    "condition": [
+                                        {
+                                            "label": "SKU1",
+                                            "value": "SKU1",
+                                            "type": 0
+                                        },
+                                        {
+                                            "label": "uguale a",
+                                            "value": "=",
+                                            "type": 2
+                                        },
+                                        {
+                                            "label": "Prodotto B",
+                                            "value": "B",
+                                            "type": 1
+                                        }
+                                    ],
+                                    "effect": "15.00"
+                                },
+                                {
+                                    "condition": [
+                                        {
+                                            "label": "SKU1",
+                                            "value": "SKU1",
+                                            "type": 0
+                                        },
+                                        {
+                                            "label": "uguale a",
+                                            "value": "=",
+                                            "type": 2
+                                        },
+                                        {
+                                            "label": "Prodotto C",
+                                            "value": "C",
+                                            "type": 1
+                                        }
+                                    ],
+                                    "effect": "52.00"
+                                },
+                                {
+                                    "condition": [
+                                        {
+                                            "label": "SKU1",
+                                            "value": "SKU1",
+                                            "type": 0
+                                        },
+                                        {
+                                            "label": "uguale a",
+                                            "value": "=",
+                                            "type": 2
+                                        },
+                                        {
+                                            "label": "Prodotto D",
+                                            "value": "D",
+                                            "type": 1
+                                        }
+                                    ],
+                                    "effect": "36.50"
+                                },
+                                {
+                                    "condition": [
+                                        {
+                                            "label": "SKU1",
+                                            "value": "SKU1",
+                                            "type": 0
+                                        },
+                                        {
+                                            "label": "uguale a",
+                                            "value": "=",
+                                            "type": 2
+                                        },
+                                        {
+                                            "label": "Prodotto E",
+                                            "value": "E",
+                                            "type": 1
+                                        }
+                                    ],
+                                    "effect": "60.00"
+                                }
+                            ],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "SKU1_PU"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": "€"
+                                },
+                                "options": []
+                            }
+                        },
+                        {
+                            "key": "SKU1_SUB",
+                            "label": "SubTotale",
+                            "fieldAutoFillConditions": [
+                                {
+                                    "condition": [
+                                        {
+                                            "label": "SKU1_QTA",
+                                            "value": "SKU1_QTA",
+                                            "type": 0
+                                        },
+                                        {
+                                            "label": "maggiore di",
+                                            "value": ">",
+                                            "type": 2
+                                        },
+                                        {
+                                            "label": "0",
+                                            "value": "0",
+                                            "type": 1
+                                        }
+                                    ],
+                                    "effect": "SKU1_PU",
+                                    "effectIsField": true
+                                }
+                            ],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "SKU1_SUB"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": "€"
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "003",
+                    "formType": 4,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "SKU2",
+                            "label": "Prodotto 2",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 3,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "SKU2"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": [
+                                    {
+                                        "label": "Prodotto A",
+                                        "value": "A"
+                                    },
+                                    {
+                                        "label": "Prodotto B",
+                                        "value": "B"
+                                    },
+                                    {
+                                        "label": "Prodotto C",
+                                        "value": "C"
+                                    },
+                                    {
+                                        "label": "Prodotto D",
+                                        "value": "D"
+                                    },
+                                    {
+                                        "label": "Prodotto E",
+                                        "value": "E"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "004",
+                    "formType": 4,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "SKU3",
+                            "label": "Prodotto 3",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 3,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "SKU3"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": [
+                                    {
+                                        "label": "Prodotto A",
+                                        "value": "A"
+                                    },
+                                    {
+                                        "label": "Prodotto B",
+                                        "value": "B"
+                                    },
+                                    {
+                                        "label": "Prodotto C",
+                                        "value": "C"
+                                    },
+                                    {
+                                        "label": "Prodotto D",
+                                        "value": "D"
+                                    },
+                                    {
+                                        "label": "Prodotto E",
+                                        "value": "E"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "005",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "Regalo",
+                            "label": "Vuole fare un regalo a qualcuno?",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 5,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Regalo"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": [
+                                    {
+                                        "label": "SI",
+                                        "value": "true"
+                                    },
+                                    {
+                                        "label": "NO",
+                                        "value": "false"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "002",
+            "pageName": "Conferma Dati Fatturazione",
+            "elements": [
+                {
+                    "id": "001",
+                    "formType": 3,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "",
+                            "label": "Le chiedo gentilmente di confermarmi i dati per la fatturazione.",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 0,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": ""
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "000",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "NomeFatturazione",
+                            "label": "Nome",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Nome"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "002",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "CognomeFatturazione",
+                            "label": "Cognome",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Cognome"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "003",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "InidirizzoFatturazione",
+                            "label": "Inidirizzo",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Inidirizzo"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "004",
+                    "formType": 5,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "ProvinciaFatturazione",
+                            "label": "",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 0,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": ""
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        },
+                        {
+                            "key": "LocalitaFatturazione",
+                            "label": "",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 0,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": ""
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        },
+                        {
+                            "key": "CapFatturazione",
+                            "label": "",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 0,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": ""
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "007",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "CodiceFiscaleFatturazione",
+                            "label": "Codice Fiscale",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Codice Fiscale"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "005",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "CellulareFatturazione",
+                            "label": "Cellulare",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Cellulare"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "006",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "TelefonoFatturazione",
+                            "label": "Telefono",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Telefono"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "003",
+            "pageName": "Dati Beneficiario",
+            "elements": [
+                {
+                    "id": "001",
+                    "formType": 3,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "",
+                            "label": "Le chiedo adesso i dati del beneficiario in quanto ha scelto di fare un regalo.\n",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 0,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": ""
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "000",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "NomeBeneficiario",
+                            "label": "Nome",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Nome"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "002",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "CognomeBeneficiario",
+                            "label": "Cognome",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Cognome"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "003",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "IndirizzoBeneficiario",
+                            "label": "Indirizzo",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Indirizzo"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "004",
+                    "formType": 5,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "ProvinciaBeneficiario",
+                            "label": "",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 0,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": ""
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        },
+                        {
+                            "key": "LocalitaBeneficiario",
+                            "label": "",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 0,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": ""
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        },
+                        {
+                            "key": "CapBeneficiario",
+                            "label": "",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 0,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": ""
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "005",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "CellulareBeneficiario",
+                            "label": "Cellulare",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Cellulare"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "006",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "TelefonoBeneficiario",
+                            "label": "Telefono",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "Telefono"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "004",
+            "pageName": "Saluti",
+            "elements": [
+                {
+                    "id": "001",
+                    "formType": 3,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "",
+                            "label": "La ringrazio per la fiducia accordataci e le porgo i migliori saluti.",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                "isDateTimeEnabled": false,
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 0,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": ""
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "flow": [
+        {
+            "start": "001",
+            "stop": "000",
+            "condition": {
+                "flowOption": 0,
+                "aggregatedConditions": []
+            }
+        },
+        {
+            "start": "000",
+            "stop": "send",
+            "condition": {
+                "flowOption": 0,
+                "aggregatedConditions": []
+            }
+        },
+        {
+            "start": "002",
+            "stop": "004",
+            "condition": {
+                "flowOption": 1,
+                "aggregatedConditions": [
+                    {
+                        "condition": [
+                            {
+                                "label": "Regalo",
+                                "value": "Regalo",
+                                "type": 0
+                            },
+                            {
+                                "label": "uguale a",
+                                "value": "=",
+                                "type": 2
+                            },
+                            {
+                                "label": "SI",
+                                "value": "true",
+                                "type": 1
+                            }
+                        ],
+                        "effect": "003"
+                    }
+                ]
+            }
+        },
+        {
+            "start": "003",
+            "stop": "003",
+            "condition": {
+                "flowOption": 0,
+                "aggregatedConditions": []
+            }
+        },
+        {
+            "start": "004",
+            "stop": "send",
+            "condition": {
+                "flowOption": 2,
+                "aggregatedConditions": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,224 @@
+{
+    "dataSchema": {
+        "iban": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "min": "",
+                "max": "",
+                "regex": ""
+            }
+        },
+        "nome": {
+            "type": "text",
+            "nullable": true,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "cognome": {
+            "type": "text",
+            "nullable": true,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        },
+        "metodopagamento": {
+            "type": "text",
+            "nullable": false,
+            "constraints": {
+                "max": "",
+                "min": "",
+                "regex": ""
+            }
+        }
+    },
+    "config": {
+        "isPreviewEnabled": true,
+        "start": {
+            "conditions": [],
+            "defaultStartingPoint": "",
+            "withConditions": false
+        },
+        "globalSettings" : {
+            "dateFormat" : "dd/MM/yyyy",
+            "dateTimeFormat" : "HH:mm"  
+        }
+    },
+    "template": [
+        {
+            "id": "000",
+            "pageName": "Metodo di pagamento",
+            "elements": [
+                {
+                    "id": "001",
+                    "formType": 4,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "nome",
+                            "label": "NOME",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "nome"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        },
+                        {
+                            "key": "cognome",
+                            "label": "COGNOME",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "cognome"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "000",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [],
+                    "queries": [
+                        {
+                            "key": "metodopagamento",
+                            "label": "Come desidera pagare?",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 5,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "metodopagamento"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": [
+                                    {
+                                        "label": "Bonifico",
+                                        "value": "Bonifico"
+                                    },
+                                    {
+                                        "label": "Contanti",
+                                        "value": "Contanti"
+                                    },
+                                    {
+                                        "label": "Non voglio pagare",
+                                        "value": "Non voglio pagare"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "002",
+                    "formType": 0,
+                    "aggregatedVisibilityConditions": [
+                        {
+                            "condition": [
+                                {
+                                    "label": "metodopagamento",
+                                    "value": "metodopagamento",
+                                    "type": 0
+                                },
+                                {
+                                    "label": "uguale a",
+                                    "value": "=",
+                                    "type": 2
+                                },
+                                {
+                                    "label": "Bonifico",
+                                    "value": "Bonifico",
+                                    "type": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "queries": [
+                        {
+                            "key": "iban",
+                            "label": "Codice IBAN",
+                            "fieldAutoFillConditions": [],
+                            "fieldObligatoryConditions": [],
+                            "parameters": {
+                                
+                                "isFreeInputEnabled": false,
+                                "isTextBox": false,
+                                "responseType": 1,
+                                "apiConfig": {
+                                    "url": "",
+                                    "method": ""
+                                },
+                                "previewConfig": {
+                                    "isVisible": true,
+                                    "previewLabel": "iban"
+                                },
+                                "additionalInformation": {
+                                    "prefix": "",
+                                    "suffix": ""
+                                },
+                                "options": []
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "flow": [
+        {
+            "start": "000",
+            "stop": "send",
+            "condition": {
+                "flowOption": 2,
+                "aggregatedConditions": []
+            }
+        }
+    ]
+}

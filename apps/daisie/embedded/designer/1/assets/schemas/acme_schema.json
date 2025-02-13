@@ -1,0 +1,183 @@
+{
+    "CognomeFatturazione": {
+        "type": "text",
+        "nullable": false,
+        "max": 100
+    },
+    "NomeFatturazione": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "IndirizzoFatturazione": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "LocalitaFatturazione": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "CapFatturazione": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "ProvinciaFatturazione": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "TelefonoFatturazione": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "CellulareFatturazione": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "Regalo": {
+        "type": "boolean",
+        "nullable": true,
+        "max": 100
+    },
+    "CapBeneficiario": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "CellulareBeneficiario": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "CognomeBeneficiario": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "IndirizzoBeneficiario": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "LocalitaBeneficiario": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "NomeBeneficiario": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "ProvinciaBeneficiario": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "TelefonoBeneficiario": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "SKU1": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "SKU2": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "SKU3": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "SKU1_QTA": {
+        "type": "number",
+        "nullable": true,
+        "max": 100
+    },
+    "SKU1_PU": {
+        "type": "number",
+        "nullable": true,
+        "max": 100
+    },
+    "SKU2_PU": {
+        "type": "number",
+        "nullable": true,
+        "max": 100
+    },
+    "SKU2_QTA": {
+        "type": "number",
+        "nullable": true,
+        "max": 100
+    },
+    "SKU3_PU": {
+        "type": "number",
+        "nullable": true,
+        "max": 100
+    },
+    "SKU3_QTA": {
+        "type": "number",
+        "nullable": true,
+        "max": 100
+    },
+    "SKU1_SUB": {
+        "type": "number",
+        "nullable": true,
+        "max": 100
+    },
+    "SKU2_SUB": {
+        "type": "number",
+        "nullable": true,
+        "max": 100
+    },
+    "SKU3_SUB": {
+        "type": "number",
+        "nullable": true,
+        "max": 100
+    },
+    "TotaleOrdine": {
+        "type": "number",
+        "nullable": true,
+        "max": 100
+    },
+    "Interessato": {
+        "type": "boolean",
+        "nullable": true,
+        "max": 100
+    },
+    "ConosceGiaAzienda": {
+        "type": "boolean",
+        "nullable": true,
+        "max": 100
+    },
+    "UsaGiaProdotti": {
+        "type": "boolean",
+        "nullable": true,
+        "max": 100
+    },
+    "ProdottiNoti": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    },
+    "ConfermaAccettaCondizioni": {
+        "type": "boolean",
+        "nullable": true,
+        "max": 100
+    },
+    "CodiceFiscaleFatturazione": {
+        "type": "text",
+        "nullable": true,
+        "max": 100
+    }
+
+}
